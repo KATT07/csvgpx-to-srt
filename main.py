@@ -13,7 +13,7 @@ l2=""
 l3=""
 h=0
 m=0
-s=-100 #enter offset in seconds here
+s=-(int(input("Enter OFFSET(seconds):"))) #enter offset in seconds here
 f=open("subs.srt","w")
 for i in range(len(lst)):
     s=s+1
